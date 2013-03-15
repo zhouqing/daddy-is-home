@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby 
+STDOUT.flush
+puts "\nDear Master, what language do you prefer?\n
+1.Python\t2.Ruby\t3.Lisp"
+choices = ["Python","Ruby","Lisp"]
+choice = gets.to_i
+puts "let's rock with "+ch=choices[choice-1]+" now.\n"
+if choice == 1
+system("python")
+elsif choice ==2
+system("irb")
+elsif choice ==3
+puts "Oh wait..not installed yet."
+elsif
+puts "you're drunk."
+end
